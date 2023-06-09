@@ -50,7 +50,7 @@ async function generateSVGMapFromFolder(folderPath) {
 }
 
 async function main() {
-    await generateSVGMapFromFolder('   ');
+    await generateSVGMapFromFolder('./svgFolder');
 
     console.log(svgArray);
 
